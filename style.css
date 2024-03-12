@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo-principal {
+    height: 200px;
+}
+
+.botao-entre-em-contato {
+    color: white;
+    background-color: #c51111;
+    border-radius: 5px;
+    border: none;
+    width: 200px;
+    height: 30px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 30px;
+
+}
+
+.imagem-mario-e-luigi {
+    height: 500px;
+
+}
+
+body {
+    height: 100vh;
+}
+
+.caixa-mae {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px;
+    height: 100vh;
+
+}
+
+.caixa-paragrafo-botao {
+    width: 40%;
+    color: white;
+
+}
+
+.caixa-video {
+    position: fixed;
+    top: 0;
+    z-index: -1;
+}
+
+video {
+   min-height: 100%;
+   min-width: 100%;
+   position: fixed;
+   top: 0;
+
+}
+
+.mascara-video {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+
+}
+
+.link-whatsapp img {
+    height: 60px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+
+
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 30px;
+}
+
+.header img {
+    height: 60px;
+
+}
+
+.header a {
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.header a:hover {
+    color: #c51111;
+    font-size: 26px;
+    transition: 0.5s ease-in-out;
+}
+
+.botao-entre-em-contato:hover {
+    color: #c51111;
+    background-color: white;
+    transition: 0.5s ease-in-out;
+}
+
+.formulario-fale-conosco {
+    align-items: center;
+    background-color: white;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    position: fixed;
+    top: 30%;
+    left: -300px;
+    padding: 20px;
+    border-radius: 7px;
+    transition: left 1s ease-in-out;
+
+
+}
+
+
+.botao-solicitar-orçamento {
+    align-items: center;
+    color: white;
+    background-color: #c51111;
+    border-radius: 5px;
+    border: none;
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 30px;
+
+}
+
+.botao-solicitar-orçamento:hover {
+    color: #c51111;
+    background-color: white;
+    transition: 0.5s ease-in-out;
+}
+
+input {
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 5px;
+    outline-color: #18d80f;
+}
+
+textarea {
+    width: 181px;
+    height: 52px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 5px;
+    outline-color: #18d80f;
+}
+
+.mascara-formulario{
+    visibility:hidden ;
+    position: fixed;
+    top:0;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(109deg, rgba(10,12,16,0.99) 15%, rgba(10,12,16,0.7) 50%, rgba(10,12,16,0.99)) 85%;
+transition: visibility 1s ease-in-out;
+}
+
+

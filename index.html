@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MARIO BROSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="mascara-formulario" onclick="cliqueiNaMascara()"></div>
+
+    <div class="header">
+        <img src="./IMG/logo-header.png" alt="logo mario">
+        <a>Home</a>
+        <a>Nossos Serviços</a>
+        <a>Fale Conosco</a>
+    </div>
+    <div class="caixa-mae">
+        <div class="caixa-paragrafo-botao">
+            <img src="./IMG/logo.png" alt="logo-principal" class="logo-principal">
+
+
+            <p>Mario & Luigi - Resolvendo seus problemas hidráulicos com estilo! </p>
+            <p>Você já se encontrou em uma situação de emergência com encanamento? Vazamentos inesperados, canos
+                entupidos
+                ou torneiras que não param de pingar ?
+                Não se preocupe, porque estamos aqui para salvar o dia!
+                Apresentamos a vocês os encanadores mais famosos do Reino dos Cogumelos - Mario e Luigi!
+            </p>
+
+            <a href="https://api.whatsapp.com/send?phone=5511954785462&text=Ol%C3%A1%20informe%20sua%20queixa "
+                class="link-whatsapp">
+                <img src="./IMG/whatsapp.png" alt="imagem-whatsapp">
+            </a>
+
+
+            <button class="botao-entre-em-contato" onclick="cliqueiNoBotao()"> Entre em contato </button>
+        </div>
+        <div class="caixa-imagem-mario-luigi">
+            <img src="./IMG/mario.png " alt="logo mario e luigi" class="imagem-mario-e-luigi">
+
+        </div>
+    </div>
+
+
+    <div class="caixa-video">
+        <video src="./IMG/video.mp4" autoplay muted loop></video>
+        <div class="mascara-video"></div>
+    </div>
+
+    <a>
+
+
+    </a>
+    <div class="caixa-formulario">
+        <form 
+        class="formulario-fale-conosco"
+         action="https://formcarry.com/s/Yh_-x1tILH4" 
+         method="POST"
+        enctype="multipart/form-data">
+
+            <input placeholder="Digite seu nome" type="text" name="nome">
+            <input placeholder="Digite seu telefone" type="tel" name="telefone">
+            <textarea placeholder="Digite seu problema aqui" name="duvida"></textarea>
+            <button class="botao-solicitar-orçamento" type="submit">Solicitar orçamento</button>
+
+        </form>
+    </div>
+</body>
+<script src="scripts.js"></script>
+
+</html>
